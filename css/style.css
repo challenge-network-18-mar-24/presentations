@@ -1,6 +1,41 @@
+/*
+Ho fatto in stile linktree
+Magari poi si fanno le card
+
+*/
+
+
+
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(209, 203, 255);
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .container {
-  padding: 20px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+a{
+  background-color: rgb(52, 52, 52);
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+a:hover{
+  background-color: rgb(132, 115, 255);
 }
